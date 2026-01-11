@@ -4,8 +4,6 @@ Welcome to the **Python Projects** repository! This is a collection of various P
 
 ## Repository Structure
 
-- `Projects-100 days/` - A series of projects from the 100 Days of Code challenge, focusing on different Python topics and libraries.
-
 Each project follows this structure:
 
 ```
@@ -49,4 +47,4 @@ This repository is licensed under the MIT License - see the [LICENSE](LICENSE) f
 
 ## Contact
 
-If you have any questions or suggestions, feel free to open an issue or contact [text](https://github.com/ds-ricky).
+If you have any questions or suggestions, feel free to open an issue or contact [ds-ricky](https://github.com/ds-ricky).
