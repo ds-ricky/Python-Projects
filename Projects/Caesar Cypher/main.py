@@ -1,0 +1,48 @@
+choice = input("Do you want to use GUI? (yes/no): ").lower()
+if choice == "yes":
+    import gui
+    gui.run_gui()
+else:
+    import art
+    print(art.logo)
+
+    alphabet = ['a', 'b', 'c', 'd', 'e', 'f', 'g', 'h', 'i', 'j', 'k', 'l', 'm', 'n', 'o', 'p', 'q', 'r', 's', 't', 'u', 'v', 'w', 'x', 'y', 'z']
+
+    direction = input("Type 'encode' to encrypt, type 'decode' to decrypt:\n").lower()
+    text = input("Type your message:\n").lower()
+    shift = int(input("Type the shift number:\n"))
+
+    smb = ""
+    pr = ""
+    for char in text:
+        if char in alphabet:
+            pr += char
+        else:
+            smb += char
+
+    def caesar(original_text, shift_amount, encode_or_decode):
+        output_text = ""
+
+        for letter in original_text:
+            if encode_or_decode == "decode":
+                shift_amount *= -1
+
+            shifted_position = alphabet.index(letter) + shift_amount
+            shifted_position %= len(alphabet)
+            output_text += alphabet[shifted_position]
+        print(f"Here is the {encode_or_decode}d result: {output_text + smb}")
+
+    caesar(original_text=text,shift_amount=shift,encode_or_decode=direction)
+
+    should_continue = True
+
+    while should_continue:
+        restart = input("Type 'yes' if you want to go again. Otherwise, type 'no'.\n").lower()
+        if restart == "yes":
+            direction_again = input("Type 'encode' to encrypt, type 'decode' to decrypt:\n").lower()
+            text_again = input("Type your message:\n").lower()
+            shift_again = int(input("Type the shift number:\n"))
+            caesar(original_text=text_again, shift_amount=shift_again, encode_or_decode=direction_again)
+        else:
+            should_continue = False
+            print("Goodbye")
