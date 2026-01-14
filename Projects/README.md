@@ -4,6 +4,7 @@ This directory contains various Python projects and scripts.
 
 ## Current Projects
 
+- [Black Jack](Black%20Jack/): A simple command-line implementation of the classic Blackjack card game in Python.
 - [Blind Auction](Blind%20Auction/): A simple Python program that simulates a blind auction where bidders enter their names and bids, and the program determines the winner.
 - [Caesar Cypher](Caesar%20Cypher/): A simple Python implementation of the Caesar Cipher for encrypting and decrypting messages, with both command-line and GUI interfaces.
 - [Calculator](Calculator/): A simple command-line calculator for basic arithmetic operations.
