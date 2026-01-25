@@ -1,51 +1,53 @@
-# Number Guessing Game
+# 🔢 Number Guessing Game
 
-A fun and interactive number guessing game built in Python where you try to guess a randomly chosen number between 1 and 100.
+Guess the secret number between 1 and 100 before you run out of attempts.
 
-## Description
+## 📋 Description
 
-The program generates a random number and you have a limited number of attempts to guess it. After each guess, the program provides hints telling you whether your guess is too high or too low. The game offers two difficulty levels:
+The program picks a random number and challenges you to find it. Choose a difficulty, then use the high/low hints after each guess to close in on the answer.
 
-- **Easy Mode**: 10 attempts to guess the number
-- **Hard Mode**: 5 attempts to guess the number
+## 🎯 Features
 
-## How to Play
+- 🎚️ Two difficulty levels: Easy (10 attempts) and Hard (5 attempts)
+- 📣 Instant feedback if your guess is too high or too low
+- ⏳ Attempts counter displayed each turn
+- 🖼️ ASCII art banner to start the game
 
-1. Run the program: `python main.py`
-2. Choose your difficulty level by typing 'easy' or 'hard'
-3. Make your guesses based on the hints provided
-4. Win by guessing the correct number before running out of attempts!
+## 📁 Project Structure
 
-## Features
+```
+Number Guessing/
+├── art.py    # ASCII art logo
+├── main.py   # Game logic and loop
+└── README.md # Project documentation
+```
 
-- Two difficulty levels with different attempt counts
-- Real-time feedback on each guess (Too High/Too Low)
-- Remaining attempts counter
-- Decorative ASCII art logo
+## 🚀 How to Run
 
-## Files
+```bash
+python main.py
+```
 
-- `main.py`: Main game logic and gameplay flow
-- `art.py`: ASCII art logo for the game
+## 🕹️ How to Play
 
-## Requirements
+1. Start the game and pick a difficulty (`easy` or `hard`).
+2. Enter guesses; follow the "Too high" / "Too low" hints.
+3. Win by guessing correctly before attempts hit zero.
 
-- Python 3.x
-
-## Example Game Flow
+## 🧪 Example Round
 
 ```
 Choose difficulty level. Type 'easy' or 'hard': easy
 You have 10 attempts remaining to guess the number.
 Make a guess: 50
-Too High
+Too high.
 You have 9 attempts remaining to guess the number.
 Make a guess: 25
-Too Low
+Too low.
 ...
 You got it! The answer was 37.
 ```
 
-## Author
+## 🛠️ Requirements
 
-Created as part of Python learning projects.
+- Python 3.x

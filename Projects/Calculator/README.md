@@ -1,19 +1,40 @@
-# Calculator
+# 🧮 Calculator
 
-A simple command-line calculator built in Python that supports basic arithmetic operations: addition, subtraction, multiplication, and division.
+A command-line calculator for quick arithmetic with a handy carry-forward result.
 
-## Features
+## 📋 Description
 
-- Perform basic calculations (addition, subtraction, multiplication, division)
-- Continue calculating with the previous result
-- Start a new calculation or exit the program
+Perform basic operations (add, subtract, multiply, divide) from the terminal. After each calculation, you can chain another operation using the previous result or start fresh.
 
-## How to Run
+## 🎯 Features
 
-Run the `main.py` file using Python:
+- ➕➖✖️➗ Core arithmetic operations
+- 🔁 Continue calculations using the last result
+- 🖼️ ASCII art header for a friendly start
+- 🚪 Option to start over or exit at any time
+
+## 📁 Project Structure
 
 ```
+Calculator/
+├── art.py   # ASCII art banner
+├── main.py  # Calculator logic and prompts
+└── README.md
+```
+
+## 🚀 How to Run
+
+```bash
 python main.py
 ```
 
-Follow the on-screen prompts to enter your first number, choose an operation, enter the second number, and decide whether to continue with the result, start a new calculation, or exit.
+## 🕹️ Usage
+
+1. Enter the first number.
+2. Choose an operator (+, -, *, /).
+3. Enter the second number to see the result.
+4. Choose to continue with the result, start a new calculation, or exit.
+
+## 🛠️ Requirements
+
+- Python 3.x

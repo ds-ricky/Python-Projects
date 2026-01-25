@@ -1,87 +1,48 @@
 # ☕ Coffee Machine (OOP Version)
 
-An object-oriented programming (OOP) implementation of a coffee vending machine simulator. This is a refactored version of the procedural Coffee Machine project, demonstrating the power and organization of OOP principles.
+An object-oriented coffee vending simulator that highlights clean class design and modular code organization.
 
-## 🎯 Project Overview
+## 📋 Description
 
-This project simulates a coffee vending machine that can prepare different types of coffee drinks (espresso, latte, cappuccino) while managing resources and processing payments. Unlike the procedural version, this implementation uses classes and objects to create a more modular, maintainable, and scalable codebase.
+This refactor of the procedural Coffee Machine project uses classes to manage brewing, menus, and payments. It serves espresso, latte, and cappuccino while tracking resources and profits in a reusable, testable design.
 
-## 🔑 OOP Concepts Demonstrated
+## 🎯 Features
 
-### Classes and Objects
-- **CoffeeMaker**: Manages coffee machine resources and coffee preparation
-- **Menu & MenuItem**: Handles menu items and their properties
-- **MoneyMachine**: Processes payments and tracks profits
-
-### Encapsulation
-- Each class encapsulates related data and functionality
-- Private attributes and public methods provide controlled access
-- Resources, menu items, and money are managed within their respective classes
-
-### Abstraction
-- Complex operations are hidden behind simple method calls
-- Users interact with high-level methods without worrying about implementation details
-- Example: `make_payment()` handles all coin processing internally
-
-### Modularity
-- Each class is defined in its own file for better organization
-- Components can be modified independently
-- Easy to extend functionality without affecting other parts
+- 🧱 Class-based architecture (`CoffeeMaker`, `Menu`/`MenuItem`, `MoneyMachine`)
+- ✅ Resource checks before brewing and payment validation with change handling
+- 📊 Built-in menu of three drinks with ingredient and cost data
+- 📄 `report` command to view resources and profits; `off` to shut down gracefully
 
 ## 📁 Project Structure
 
 ```
 Coffee Machine OOPS/
-│
-├── main.py              # Main program loop and user interaction
-├── coffee_maker.py      # CoffeeMaker class - manages resources and brewing
-├── menu.py             # Menu and MenuItem classes - handles menu operations
-├── money_machine.py    # MoneyMachine class - handles payment processing
-└── README.md           # This file
+├── coffee_maker.py   # CoffeeMaker class - manages resources and brewing
+├── menu.py           # Menu and MenuItem classes - handles menu operations
+├── money_machine.py  # MoneyMachine class - processes payments
+├── main.py           # Program loop and user interaction
+└── README.md         # Project documentation
 ```
 
-## 🏗️ Class Architecture
+## 🧩 Core Classes
 
-### CoffeeMaker
-- **Attributes**: resources (water, milk, coffee)
-- **Methods**: 
-  - `report()`: Display current resources
-  - `is_resource_sufficient()`: Check if enough resources available
-  - `make_coffee()`: Prepare the drink and deduct resources
-
-### Menu & MenuItem
-- **MenuItem Attributes**: name, cost, ingredients
-- **Menu Methods**:
-  - `get_items()`: Return available drink options
-  - `find_drink()`: Search for a drink by name
-
-### MoneyMachine
-- **Attributes**: profit, money_received
-- **Methods**:
-  - `report()`: Display total profit
-  - `process_coins()`: Accept and calculate coin input
-  - `make_payment()`: Verify payment and return change
+- **CoffeeMaker**: `report()`, `is_resource_sufficient()`, and `make_coffee()` to track and brew drinks.
+- **Menu & MenuItem**: `get_items()` to list options and `find_drink()` to fetch selections with ingredients and cost.
+- **MoneyMachine**: `process_coins()`, `make_payment()`, and `report()` to handle cashflow and profits.
 
 ## 🚀 How to Run
 
-1. Navigate to the project directory:
 ```bash
 cd "Projects/Coffee Machine OOPS"
-```
-
-2. Run the program:
-```bash
 python main.py
 ```
 
-3. Follow the prompts to order drinks!
+## 🛠️ Usage
 
-## 💡 Usage
-
-- **Order a drink**: Type `espresso`, `latte`, or `cappuccino`
-- **Check resources**: Type `report`
-- **Turn off machine**: Type `off`
-- **Insert coins**: Enter the number of quarters, dimes, nickles, and pennies when prompted
+- Order a drink: type `espresso`, `latte`, or `cappuccino`.
+- Check resources: type `report`.
+- Turn off the machine: type `off`.
+- Insert coins when prompted: quarters, dimes, nickels, and pennies.
 
 ## 📊 Available Drinks
 
@@ -94,33 +55,28 @@ python main.py
 ## 🔄 Differences from Procedural Version
 
 | Aspect | Procedural | OOP |
-|--------|-----------|-----|
+|--------|------------|-----|
 | Code Organization | Single file with functions | Multiple files with classes |
 | Data Management | Global variables/dictionaries | Encapsulated in objects |
-| Maintainability | Harder to modify | Easy to extend and modify |
+| Maintainability | Harder to modify | Easier to extend and modify |
 | Scalability | Limited | Highly scalable |
 | Reusability | Limited function reuse | Classes can be reused/imported |
 
 ## 🎓 Learning Outcomes
 
-- Understanding of OOP principles (encapsulation, abstraction, modularity)
-- Creating and working with multiple classes
-- Organizing code into separate modules
-- Managing object state and behavior
-- Implementing real-world systems using OOP design
+- Understand encapsulation, abstraction, and modularity
+- Create and compose multiple classes across modules
+- Manage object state and behavior for a real-world process
+- Contrast procedural and OOP approaches to the same problem
 
 ## 🛠️ Future Enhancements
 
 - Add more drink options using inheritance
-- Implement a GUI using the existing classes
-- Add data persistence to save machine state
-- Create an Admin class for machine maintenance
-- Add custom drink creation feature
+- Implement a GUI on top of the existing classes
+- Add persistence to save machine state
+- Create an admin mode for maintenance
+- Allow custom drink creation
 
 ## 📝 Notes
 
-This project demonstrates how OOP makes code more organized and maintainable compared to procedural programming. Each class has a single responsibility, making the code easier to understand, test, and extend.
-
----
-
-**Comparison**: Check out the [Coffee Machine](../Coffee%20Machine) folder to see the procedural implementation of the same project!
+This project showcases how OOP improves clarity and reuse compared to the procedural version. For the original implementation, see the [Coffee Machine](../Coffee%20Machine) folder.

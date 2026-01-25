@@ -1,56 +1,49 @@
-# Caesar Cipher
+# 🔐 Caesar Cipher
 
-This is a simple Python implementation of the Caesar Cipher, a type of substitution cipher where each letter in the plaintext is shifted a certain number of places down the alphabet.
+Encrypt or decrypt text with a classic shift cipher via CLI or a simple Tkinter GUI.
 
-## Features
+## 📋 Description
 
-- Encrypt and decrypt messages using the Caesar Cipher.
-- Command-line interface via `main.py`.
-- Graphical user interface via `gui.py`.
+Each letter in your message is shifted forward or backward by a chosen amount. The tool supports both directions so you can encode or decode quickly without extra dependencies.
 
-## Files
+## 🎯 Features
 
-- `main.py`: The main script for command-line usage.
-- `gui.py`: The graphical user interface using Tkinter.
-- `art.py`: Contains ASCII art for the application.
+- 🔄 Encrypt and decrypt modes with custom shift values
+- 🖥️ Command-line interface for fast usage
+- 🪟 Tkinter GUI for point-and-click encryption
+- 🖼️ ASCII art banner included
 
-## Usage
+## 📁 Project Structure
 
-### Command-Line
+```
+Caesar Cypher/
+├── art.py   # ASCII art assets
+├── gui.py   # Tkinter GUI version
+├── main.py  # Command-line interface
+└── README.md
+```
 
-Run the main script:
+## 🚀 How to Run
+
+CLI version:
 
 ```bash
 python main.py
 ```
 
-### GUI
-
-Run the GUI script:
+GUI version:
 
 ```bash
 python gui.py
 ```
 
-## Requirements
+## 🧠 How It Works
 
-- Python 3.x
+The Caesar Cipher shifts each alphabetic character by `n` positions. With a shift of 3:
 
-No external dependencies are required beyond the standard library.
+- A → D, B → E, ..., X → A, Y → B, Z → C
+- Non-alphabetic characters stay unchanged
 
-## How It Works
+## 🛠️ Requirements
 
-The Caesar Cipher shifts each letter in the message by a fixed number of positions. For example, with a shift of 3:
-
-- A becomes D
-- B becomes E
-- ...
-- X becomes A
-- Y becomes B
-- Z becomes C
-
-Non-alphabetic characters remain unchanged.
-
-## Contributing
-
-Feel free to contribute improvements or bug fixes.
+- Python 3.x (standard library only)
