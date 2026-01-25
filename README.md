@@ -43,7 +43,7 @@ Contributions are welcome! If you have a Python project you'd like to add:
 
 ## License
 
-This repository is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+This repository is licensed under the MIT License - see the [LICENSE](Projects/LICENSE) file for details.
 
 ## Contact
 
