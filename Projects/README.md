@@ -28,6 +28,9 @@ A classic word-guessing game implemented in Python with a console interface.
 ### 📊 [Higher or Lower](Higher%20or%20Lower/)
 A guessing game where you compare download counts of popular games and apps to build your score.
 
+### 🎨 [Hirst Painting](Hirst%20Painting/)
+A turtle-graphics program that generates a Damien Hirst–inspired dot painting.
+
 ### 🔢 [Number Guessing](Number%20Guessing/)
 An interactive number guessing game where you try to guess a random number between 1 and 100 with difficulty levels.
 
