@@ -43,7 +43,10 @@ A fun True/False quiz game about video game trivia with 25 questions, real-time 
 ### ✊ [Rock Paper Scissors](Rock%20Paper%20Scissors/)
 A simple rock-paper-scissors game where you play against the computer.
 
-### 🐢 [Turtle Race](Turtle%20Race/)
+### � [Snake Game](Snake%20Game/)
+A classic snake game where you control a snake to eat food and grow longer while avoiding collisions.
+
+### �🐢 [Turtle Race](Turtle%20Race/)
 An interactive turtle racing game built with Python's turtle graphics library where colorful turtles compete to reach the finish line.
 
 ## 📚 Learning Concepts
