@@ -37,16 +37,19 @@ An interactive number guessing game where you try to guess a random number betwe
 ### 🔑 [Password Generator](Password%20Generator/)
 A Python-based password generator that creates secure passwords using letters, numbers, and symbols.
 
+### 🏓 [Pong Game](Pong%20Game/)
+A classic Pong arcade game built with Python's turtle graphics.
+
 ### 🎮 [Quiz Game](Quiz%20Game/)
 A fun True/False quiz game about video game trivia with 25 questions, real-time score tracking, and immediate feedback.
 
 ### ✊ [Rock Paper Scissors](Rock%20Paper%20Scissors/)
 A simple rock-paper-scissors game where you play against the computer.
 
-### � [Snake Game](Snake%20Game/)
+### 🐍 [Snake Game](Snake%20Game/)
 A classic snake game where you control a snake to eat food and grow longer while avoiding collisions.
 
-### �🐢 [Turtle Race](Turtle%20Race/)
+### 🐢 [Turtle Race](Turtle%20Race/)
 An interactive turtle racing game built with Python's turtle graphics library where colorful turtles compete to reach the finish line.
 
 ## 📚 Learning Concepts
