@@ -49,7 +49,10 @@ A simple rock-paper-scissors game where you play against the computer.
 ### 🐍 [Snake Game](Snake%20Game/)
 A classic snake game where you control a snake to eat food and grow longer while avoiding collisions.
 
-### 🐢 [Turtle Race](Turtle%20Race/)
+### 🐢 [Turtle Crossing Capstone](Turtle%20Crossing%20Capstone/)
+A Frogger-style arcade game where you help a turtle cross a busy highway while avoiding colorful cars. Features progressive difficulty and level tracking!
+
+### 🏁 [Turtle Race](Turtle%20Race/)
 An interactive turtle racing game built with Python's turtle graphics library where colorful turtles compete to reach the finish line.
 
 ## 📚 Learning Concepts
