@@ -37,7 +37,10 @@ An interactive number guessing game where you try to guess a random number betwe
 ### 🔑 [Password Generator](Password%20Generator/) 🔒
 A Python-based password generator that creates secure passwords using letters, numbers, and symbols. Stay safe online! 🛡️🔐
 
-### 🏓 [Pong Game](Pong%20Game/) 🎾
+### � [Pomodoro](Pomodoro/) ⏱️
+A productivity timer application based on the Pomodoro Technique! 🎯 Work for 25 minutes, take short breaks, and boost your focus! ✨ Features automatic timer cycles, visual progress tracking, and a beautiful tomato-themed UI! 🍅💪
+
+### �🏓 [Pong Game](Pong%20Game/) 🎾
 A classic Pong arcade game built with Python's turtle graphics. Challenge yourself or play against others! 👾⚡
 
 ### 🎮 [Quiz Game](Quiz%20Game/) 🧠
